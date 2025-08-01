@@ -1,0 +1,25 @@
+{
+  "name": "miniframe",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript framework for building web applications",
+  "main": "dist/miniframe.js",
+  "bin": {
+    "miniframe": "./bin/create-miniframe.js"
+  },
+  "scripts": {
+    "start:todomvc": "serve examples/todomvc",
+    "build": "cp dist/miniframe.js dist/miniframe.min.js"
+  },
+  "keywords": ["framework", "javascript", "web", "minimal"],
+  "author": "[Your Name] <[Your Email]>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "serve": "^14.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[YourGitHubUsername]/miniframe.git"
+  },
+  "homepage": "https://github.com/[YourGitHubUsername]/miniframe#readme"
+}
