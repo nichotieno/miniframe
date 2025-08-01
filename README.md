@@ -9,7 +9,7 @@ MiniFrame is a minimal, production-ready JavaScript framework for building web a
 1. Try the TodoMVC example:
 
    ```bash
-   npx minifremwork start-todomvc
+   npx minfredi start-todomvc
 
    Open http://localhost:3000 to see it in action.
    ```
@@ -18,7 +18,7 @@ MiniFrame is a minimal, production-ready JavaScript framework for building web a
 
 ```bash
 open your terminal
-run the comand `npx minifremwork create <your-project-name>`
+run the comand `npx minfredi create <your-project-name>`
 cd your-project-name
 open your-project-name folder in the editor of your choice
 ```
