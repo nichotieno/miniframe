@@ -1,17 +1,17 @@
 {
-  "name": "miniframe",
-  "version": "1.0.0",
+  "name": "minfredi",
+  "version": "1.0.2",
   "description": "A lightweight JavaScript framework for building web applications",
   "main": "dist/miniframe.js",
   "bin": {
     "miniframe": "./bin/create-miniframe.js"
   },
   "scripts": {
-    "start:todomvc": "serve examples/todomvc",
+    "start:todomvc": "npx miniframe start-todomvc",
     "build": "cp dist/miniframe.js dist/miniframe.min.js"
   },
   "keywords": ["framework", "javascript", "web", "minimal"],
-  "author": "[Your Name] <[Your Email]>",
+  "author": "[nichotieno] <[reg.med.rep@gmail.com]>",
   "license": "MIT",
   "dependencies": {
     "commander": "^9.4.1",
@@ -19,7 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/[YourGitHubUsername]/miniframe.git"
+    "url": "git+https://github.com/nichotieno/miniframe.git"
   },
-  "homepage": "https://github.com/[YourGitHubUsername]/miniframe#readme"
+  "homepage": "https://github.com/nichotieno/miniframe#readme",
+  "files": [
+    "bin",
+    "dist",
+    "examples",
+    "docs",
+    "LICENSE"
+  ]
 }
