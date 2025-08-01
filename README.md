@@ -1,6 +1,6 @@
-# MiniFrame: A Lightweight JavaScript Framework
+# minfredi: A Lightweight JavaScript Framework
 
-MiniFrame is a minimal, production-ready JavaScript framework for building web applications with DOM abstraction, routing, state management, and event handling. Use the CLI to create projects or the TodoMVC example to explore its capabilities.
+minfredi is a minimal, production-ready JavaScript framework for building web applications with DOM abstraction, routing, state management, and event handling. Use the CLI to create projects or the TodoMVC example to explore its capabilities.
 
 ## Installation
 
